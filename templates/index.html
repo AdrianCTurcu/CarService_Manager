@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}CarService Manager{% endblock %}
+
+{% block content %}
+<h2>📌 Scopul proiectului</h2>
+<p class="intro-text">
+    O aplicație web dezvoltată cu **Flask (Python)** și **SQLite** pentru a ține
+    evidența întreținerii mașinilor.
+    Poți gestiona mai multe mașini și înregistra toate operațiunile de service:
+    schimburi de ulei, filtre, acumulatori, bielete etc.
+    Frontend-ul este realizat în **HTML + CSS**.
+</p>
+<h2>🚀 Funcționalități</h2>
+<p class="intro-text">
+    - **Listă mașini** – adaugă, editează și șterge mașini
+    - **Istoric service** – pentru fiecare mașină vezi toate lucrările efectuate
+    - **Operațiuni predefinite**:
+    - Schimb ulei
+    - Schimb filtru aer
+    - Schimb filtru motorină
+    - Schimb acumulator
+    - Schimb bielete
+    - Alte intervenții personalizate
+    - **Căutare rapidă** – selectează mașina și vezi istoricul complet
+    - **Persistență date** – SQLite
+    - **Interfață web** – HTML + CSS
+
+</p>
+
+<h2>⚙️ Tehnologii folosite</h2>
+<p class="intro-text">
+    - 🐍 Python 3 <br>
+    - 🔥 Flask <br>
+    - 🗄️ SQLite (pentru stocare locală) <br>
+    - 🎨 HTML5 & CSS3 (stil clasic, fără Bootstrap) <br>
+    - 🧠 Jinja2 (pentru template rendering) <br>
+
+</p>
+
+{% endblock %}
