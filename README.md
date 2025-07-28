@@ -19,4 +19,4 @@ Frontend-ul este realizat în **HTML + CSS**.
 
 
 
-![]()
+![](https://github.com/AdrianCTurcu/CarService_Manager/blob/main/structura.jpg)
